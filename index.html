@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Heartfelt Apology to [Rajshree]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f2;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #ff99cc;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #cc0066;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .apology-section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .memories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .memory-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            height: 200px;
+        }
+
+        .memory-item img {
+            width: 25%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .memory-item:hover img {
+            transform: scale(1.1);
+        }
+
+        button {
+            background-color: #ff3385;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background-color: #cc0066;
+        }
+
+        .hidden-letter {
+            display: none;
+            padding: 20px;
+            background-color: #fff0f6;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💖 To My Amazing [Rajshree] 💖</h1>
+            <p>"You mean the world to me"</p>
+        </header>
+
+        <div class="apology-section">
+            <h2>I'm Truly Sorry</h2>
+            <p>My dearest [Rajshree],</p>
+            <p>I know I messed up and I can't stop thinking about how I hurt you. You're the most important person in my life, and I hate that I've caused you pain. Please let me try to make things right.</p>
+            
+            <h3>Why I Love You:</h3>
+            <ul>
+                <li>Your smile lights up my world</li>
+                <li>Your kindness inspires me every day</li>
+                <li>You make me a better person</li>
+                <li>Your [specific quality you love]</li>
+            </ul>
+
+            <button onclick="revealLetter()">Read My Secret Apology</button>
+            <div id="hiddenLetter" class="hidden-letter">
+                <p>[Your personal handwritten-style letter here]</p>
+            </div>
+        </div>
+
+        <div class="apology-section">
+            <h2>Our Happy Memories</h2>
+            <div class="memories">
+                <!-- Add your photos here -->
+                <div class="memory-item">
+                    <img src="IMG-20241226-WA0024.jpg"/>"Our Happy Moment"
+                </div>
+                </div>
+                <div class="memory-item">
+                    <img src="IMG-20250131-WA0014.jpg"/>"The time we had so much fun"
+                </div>
+                <!-- Add more memory items -->
+            </div>
+        </div>
+
+        <div class="apology-section">
+            <h2>My Promise to You</h2>
+            <p>I will:</p>
+            <ul>
+                <li>Listen more carefully</li>
+                <li>Be more thoughtful</li>
+                <li>Show you every day how much you mean to me</li>
+                <li>[Specific promise related to your situation]</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Made with ♥ by [Anurag Nath Baruah]</p>
+            <p>"I'll keep trying until I see that beautiful smile again"</p>
+        </footer>
+    </div>
+
+    <script>
+        function revealLetter() {
+            const letter = document.getElementById('hiddenLetter');
+            letter.style.display = letter.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Add more interactive features if desired
+    </script>
+</body>
+</html>
